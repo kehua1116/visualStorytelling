@@ -9,7 +9,7 @@ In this project we explored the visual storytelling task with guided emotions. W
 		 `data/vist/data/visualstorytelling/test.pkl`
 - Generate image features from ResNet152: extract from http://nlp.cs.ucsb.edu/data/VIST_resnet_features.zip
 	- Results saved at: `data/vist/data/AREL/dataset/resnet_features/fc` (not uploaded)
-- Generate common-sense concept keywords for each image: 
+- Generate common-sense concept keywords for each image (from acknowledgement): 
 	- Code: `./Common_sense/concept_selection/train.py`
 	- Results saved at: `data/vist/data/clarifai/train/` (not uploaded)
 - Generate emotion keywords for each image:
@@ -25,13 +25,11 @@ In this project we explored the visual storytelling task with guided emotions. W
 		- baseline: `python3 train.py --with_concepts False --emotion "no_emotion"`
 		- SingleE: `python3 train.py --with_concepts False --emotion "single_emotion" --use_synonyms True`
 		- MultiE + Concept: `python3 train.py --with_concepts True--emotion "multi_emotion" --use_synonyms True`
-	- Models saved at: `models`(not uploaded)
-		- baseline: `/baseline/10_model_nokey2.pt`
-		- baseline + Concept: `/baseline/4_model.pt`
-		- SingleE:`/emotion_experiments/4_single_emotion_noconcept.pt`
-		- SingleE + Concept: `/emotion_experiments/4_single_emotion_concept.pt`
-		- MultiE: `emotion_experiments/4_multi_emotion_noconcept.pt`
-		- MultiE + Concept: `emotion_experiments/4_multi_emotion_concept_0.9.pt`
+	- Models saved at:  https://drive.google.com/drive/folders/1HY0o8229PLQn2Ex76DLrELt7Z8cQlftE?usp=share_link
+		- SingleE:`4_single_emotion_noconcept.pt`
+		- SingleE + Concept: `4_single_emotion_concept.pt`
+		- MultiE: `4_multi_emotion_noconcept.pt`
+		- MultiE + Concept: `4_multi_emotion_concept_0.9.pt`
 
 ### Model Evaluations
 (large folder: `./Common_sense/visualstorytelling`)
