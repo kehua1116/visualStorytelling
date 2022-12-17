@@ -1,0 +1,19 @@
+Link To Stories,,,,,,,,,,,,,,,,,,
+,Fluency,,,,,,Coherence,,,,,,Emotional Expressiveness,,,,,
+Story ID,Model 0,Model 1,Model 2,Model 3,Model 4,Model 5,Model 0,Model 1,Model 2,Model 3,Model 4,Model 5,Model 0,Model 1,Model 2,Model 3,Model 4,Model 5
+0,4,4,5,3,3,3,3,5,3,3,4,4,5,4,4,4,5,5
+1,5,4,4,3,4,3,5,4,3,3,3,3,4,4,4,3,4,5
+2,4,4,4,2,4,2,4,5,4,4,2,2,4,4,4,5,4,3
+3,4,4,3,3,4,4,4,5,3,4,3,4,4,4,3,4,4,4
+4,4,4,5,3,3,5,3,5,4,5,4,4,3,5,5,3,3,5
+5,4,5,4,2,4,4,2,5,4,4,4,4,4,5,5,3,4,5
+6,3,5,4,2,5,4,3,4,4,3,3,4,4,4,4,3,5,4
+7,4,3,3,3,4,3,3,4,4,3,2,3,5,4,4,5,4,3
+8,4,4,3,5,4,5,4,4,3,3,3,4,5,3,3,5,4,5
+9,4,4,4,3,4,5,4,4,3,4,3,4,5,3,4,5,5,5
+,,,,,,,,,,,,,,,,,,
+,,Scoring Metrics:,,1: very poor,,"Fluency: How fluent are the sentences generated, are they grammatically correct, logically coherent?",,,,,,,,,,,,
+,,,,2: poor,,Coherence: How well does the story generated for each image describe that images,,,,,,,,,,,,
+,,,,3: average,,Emotional Expressiveness: Are the generated stories emotionally expressive? Are they interesting to read and creative?,,,,,,,,,,,,
+,,,,4: good,,,,,,,,,,,,,,
+,,,,5: excellent,,,,,,,,,,,,,,
