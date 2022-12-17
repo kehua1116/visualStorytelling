@@ -4,7 +4,7 @@ In this project we explored the visual storytelling task with guided emotions. W
 
 ### Data Generation
 - VIST dataset: requested from http://visionandlanguage.net/VIST/dataset.html
-	- Combined images & text info for all stories:
+	- Combined images & text info for all stories: (not uploaded)
 		 `data/vist/data/visualstorytelling/train.pkl`
 		 `data/vist/data/visualstorytelling/test.pkl`
 - Generate image features from ResNet152: extract from http://nlp.cs.ucsb.edu/data/VIST_resnet_features.zip
