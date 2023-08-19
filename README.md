@@ -2,6 +2,8 @@
 ## Visual Storytelling with Emotions
 In this project we explored the visual storytelling task with guided emotions. We optionally combined the common-sense concept network from [Chen et.al](https://arxiv.org/pdf/2102.02963.pdf)  and emotion extraction network to generate stories with more emotional expressiveness. Our trained emotion models are able to achieve better performance than the baseline model in several human-evaluated metrics. 
 
+* See [Project Report](https://drive.google.com/file/d/1LLQ09BgUp4GGBVVLOqUPXjxFqTdHJ8h7/view?usp=sharing) Here
+
 ### Data Generation
 - VIST dataset: requested from http://visionandlanguage.net/VIST/dataset.html
 	- Combined images & text info for all stories: (not uploaded)
